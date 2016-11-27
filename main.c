@@ -24,7 +24,6 @@ int main(int argc, char** argv){
         } else {
             i++;
 		}
-		c = fgetc(file);
 	}
 	char** s = (char**)malloc(sizeof(char*) * n);
 	rewind(file);
